@@ -1,0 +1,89 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.sectionLight {
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+.sectionDark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+img.akira2 {
+    border-radius: 25px;
+}
+
+.moreCuteCats{
+    margin-top: 20px;
+}
+
+button.moreCuteCatsBtn {
+    background-color: navy;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+h5.modal-title {
+    margin: auto;
+}
+
+img.imgModal {
+    margin: auto;
+    display: block;
+}
+
+.modalFormWrapper {
+    padding: 2rem;
+}
+
+.imgCenter {
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.footerImg {
+    padding: 15px;
+}
+
+.verticalLine {
+  border-left: 4px solid #ffffff;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  margin-left: 35px;
+  top: 0;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-google-plus-square {
+    color: #c32f10;
+}
+
+.fa-instagram {
+    color: #ffffff;
+}
+
+.socialWrapper {
+    margin: auto;
+}

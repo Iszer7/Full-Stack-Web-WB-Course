@@ -1,0 +1,55 @@
+html {  /*You have to download the family font or use a default one*/
+  /*Una buena practica es tener dos font family, hay browsers que no lee una*/
+  font-family: "Times New Roman", serif, sans-serif;
+
+}
+
+body {
+  /* background-image: url(zebra.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: #444;
+  text-align: center;
+}
+
+h1, h2, h3 {  /*Grouping*/
+  color: #ffffff;
+  line-height: 1rem;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: normal;
+}
+
+.formatting {
+  font-size: 25px;
+  line-height: 2em;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: yellow;
+  letter-spacing: 10px;
+  word-spacing: 30px;
+  text-transform: uppercase;
+}
+
+
+
+
+.borderImg {
+  border: 5px dashed blue;
+}
+
+ul li { /*Cada LI dentro de UL va a tener estos parametros*/
+  color: white;
+  font-size: 20px;
+}
+
+ul > li { /*Todo lo que sea un nivel mas abajo que ul toma el color amarillo*/
+  color: yellow;
+}

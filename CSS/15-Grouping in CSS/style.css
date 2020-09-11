@@ -1,0 +1,32 @@
+body {
+  background-image: url(zebra.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+/*  background: linear-gradient(to left, #00ccff, #ccf5ff);
+  box-shadow: 3px 5px 3px black;*/
+}
+
+h1, h2, h3, .class, #id {  /*Grouping*/
+  color: #ffffff;
+  text-shadow: 2px 2px 5px black;
+  line-height: 1rem;
+  font-family: sans-serif;
+}
+
+.borderImg {
+  border-right: 5px dotted red;
+  border-top: 10px dashed blue;
+  border-bottom: 2px solid green;
+}
+
+ul li { /*Cada LI dentro de UL va a tener estos parametros*/
+  color: white;
+  font-size: 20px;
+}
+
+ul > li { /*Todo lo que sea un nivel mas abajo que ul toma el color amarillo*/
+  color: yellow;
+}

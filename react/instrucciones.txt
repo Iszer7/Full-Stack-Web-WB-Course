@@ -1,0 +1,10 @@
+cd C:\Program Files\MongoDB\Server\4.4\bin
+mongod
+
+----------------------------------------------------
+cd C:\Users\Diego\Desktop\Full Stack Web Development\react\backend - coneccion a base de datos
+nodemon server.js
+
+----------------------------------------------------
+cd C:\Users\Diego\Desktop\Full Stack Web Development\react\full-web
+npm start

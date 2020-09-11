@@ -1,0 +1,70 @@
+body {
+  /* background-image: url(zebra.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: #444;
+  /* text-align: center; */
+}
+
+h1 {  /*Grouping*/
+  color: #ffffff;
+  line-height: 2rem;
+  font-family: 'Liu Jian Mao Cao', serif, sans-serif;
+}
+
+h2 {  /*Grouping*/
+  color: #ffffff;
+  line-height: 2rem;
+  font-family: 'Montserrat', serif, sans-serif;
+}
+
+h3 {  /*Grouping*/
+  color: #ffffff;
+  line-height: 2rem;
+  font-family: 'Roboto Mono', serif, sans-serif;
+}
+
+.formatting {
+  font-size: 25px;
+  line-height: 2em;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: yellow;
+  letter-spacing: 10px;
+  word-spacing: 30px;
+  text-transform: uppercase;
+}
+
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  opacity: 0.75;       /*Traba de 0 a 1*/
+  display: block;   /*Deja setear un margen*/
+  margin: auto;     /*Esto centraria la imagen, el automatico sirve para que tenga el mismo espacio en todos lados*/
+}
+
+
+.borderImg {
+  border-radius: 10px;     /*Se puede usar tambien con px*/
+  width: 500px;
+  height: 500px;
+  border: 2px solid #ddd;
+  padding: 5px;           /*Espasea el borde de la imagen*/
+}
+
+ul li { /*Cada LI dentro de UL va a tener estos parametros*/
+  color: white;
+  font-size: 20px;
+}
+
+ul > li { /*Todo lo que sea un nivel mas abajo que ul toma el color amarillo*/
+  color: yellow;
+}

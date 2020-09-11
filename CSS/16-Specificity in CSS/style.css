@@ -1,0 +1,84 @@
+body {
+  background-image: url(zebra.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+/*  background: linear-gradient(to left, #00ccff, #ccf5ff);
+  box-shadow: 3px 5px 3px black;*/
+}
+
+/*Style attibute, ID, (Class, pseudo-class,attribute), Elements (most specificity->lest specificity)*/
+/*Si se pone "style" dentro del html es lo mas especifico que hay, entonces toma el valor de esta.
+El ID es mas especifico que la clase o el elemento.
+La clase es mas especifica que el elemento.
+El ultimo valor que se tomaria es el elemento.
+**Todo esto se puede combinar, lo que esta debajo son pruebas
+
+*************************
+style = 1000 puntos
+ID = 100 puntos
+class = 10 puntos
+element = 1 punto
+-Estos elementos se suman, cuantos mas puntos es el valor que se le va a poner a su estilo
+
+EJ:
+div h1 {   -> 10 puntos       -> Entonces se pondria este, aunque h1 este abajo de todo
+ color: green;
+}
+
+h1 {      -> 1 punto
+  color: green;
+}
+*************************
+
+Cuanto mas abajo este del style.css es el valor que va a tomar(cascading stylesheet)
+Se puede usar:
+
+h1 {
+  color: green !important;    **No es recomendable usar "!important", porque jode al casacading stylesheet,
+                              pero es una opcion, solo usarlo en librerias externas, bootstraps.
+}
+*/
+#foo {
+  color: red;
+}
+
+[id="foo"] {
+  color: cyan;
+}
+
+html body div.container hel#prueba {
+  color: blue;
+}
+
+.container h1 {
+  color: red;
+}
+
+div h1 {
+  color: green;
+}
+
+h1, h2, h3 {  /*Grouping*/
+  color: #ffffff;
+  text-shadow: 2px 2px 5px black;
+  line-height: 1rem;
+  font-family: sans-serif;
+}
+
+.borderImg {
+  border-right: 5px dotted red;
+  border-top: 10px dashed blue;
+  border-bottom: 2px solid green;
+}
+
+ul li { /*Cada LI dentro de UL va a tener estos parametros*/
+  color: white;
+  font-size: 20px;
+}
+
+ul > li { /*Todo lo que sea un nivel mas abajo que ul toma el color amarillo*/
+  color: yellow;
+}
