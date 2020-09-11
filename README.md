@@ -4,6 +4,7 @@ Curso de Full Stack Web Dev. Practica de JS, NodeJS, MongoDB, React, Bootstrap, 
 ## What I learn:
 
 - HTML
+  - Maquetado
 - CSS
   - SASS
   - Bootstraps
